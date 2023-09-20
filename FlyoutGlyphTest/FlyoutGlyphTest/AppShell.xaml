@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="FlyoutGlyphTest.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:FlyoutGlyphTest">
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="flyoutTemplate" x:DataType="ShellContent">
+                <Grid ColumnDefinitions="*,*" RowDefinitions="auto">
+                    <Label Grid.Column="0" Grid.Row="0" Text="{Binding Icon}" Style="{StaticResource FontAwesomeLabel}"></Label>
+                    <Label Grid.Column="1" Grid.Row="0" Text="{Binding Title}"></Label>
+                </Grid>
+
+            </DataTemplate>
+
+        </ResourceDictionary>
+
+    </Shell.Resources>
+
+    
+    <FlyoutItem x:Name="Home" Title="Home" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent
+            Title="Home"
+            Icon="chart-line"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" >
+
+        </ShellContent>
+        <ShellContent Title="Page 2" Icon="chart-bar" ContentTemplate="{DataTemplate local:Page2}" Route="Page2"></ShellContent>
+    </FlyoutItem>
+
+</Shell>
+

@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{F743FCE2-D6A2-4AF0-B911-F29972F17CFD}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FlyoutGlyphTest/App.xaml">
+    <Files>
+      <File FileName="FlyoutGlyphTest/MainPage.xaml.cs" />
+      <File FileName="FlyoutGlyphTest/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="FlyoutGlyphTest/AppShell.xaml" Line="13" Column="119" />
+      <File FileName="FlyoutGlyphTest/Page2.xaml" Line="19" Column="37" />
+      <File FileName="FlyoutGlyphTest/Page2.xaml.cs" Line="7" Column="16" />
+      <File FileName="FlyoutGlyphTest/AppShell.xaml.cs" Line="7" Column="25" />
+      <File FileName="FlyoutGlyphTest/App.xaml" Line="14" Column="39" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="FlyoutGlyphTest" expanded="True">
+            <Node name="FlyoutGlyphTest" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FlyoutGlyphTest PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CAE725BD-9170-4A85-8C8F-6C37639DB594" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CAE725BD-9170-4A85-8C8F-6C37639DB594" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
